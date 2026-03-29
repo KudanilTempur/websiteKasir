@@ -3,7 +3,7 @@ import Sidebar from "./Sidebar"
 
 function Layout({ children }: { children: React.ReactNode }) {
     const location = useLocation()
-    const hideSidebar = location.pathname === "/Login"
+    const hideSidebar = location.pathname === "/"
 
     return (
         <div className="flex h-screen">

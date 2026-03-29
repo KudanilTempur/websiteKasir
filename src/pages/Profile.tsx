@@ -77,7 +77,7 @@ function Profile() {
 
     const handleLogout = () => {
         setShowLogoutModal(false)
-        window.location.href = "/Login"
+        window.location.href = "/"
     }
 
     const profilFields: { label: string; name: keyof typeof form; placeholder: string }[] = [

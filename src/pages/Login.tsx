@@ -22,7 +22,7 @@ function Login() {
         setTimeout(() => {
             setLoading(false)
             if (form.username === "admin" && form.password === "admin123") {
-                alert("Login berhasil! Selamat datang, " + form.username)
+                window.location.href = "/kasir"
             } else {
                 setError("Username atau password salah.")
             }

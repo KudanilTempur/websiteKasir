@@ -7,7 +7,7 @@ function Sidebar() {
             <h1 className="text-2xl font-bold mb-8">myWebsite</h1>
 
             <ul className="space-y-4">
-                <li className="hover:text-blue-400 p-1 rounded transition cursor-pointer duration-200"><NavLink to="/" className={({ isActive }) =>
+                <li className="hover:text-blue-400 p-1 rounded transition cursor-pointer duration-200"><NavLink to="/Kasir" className={({ isActive }) =>
                     `block p-2 rounded-md transition ${isActive
                         ? "bg-slate-700 text-blue-400"
                         : "hover:bg-slate-700"
