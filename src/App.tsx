@@ -3,12 +3,11 @@ import { Routes, Route } from "react-router-dom"
 import Layout from "./components/Layout"
 import Stok from "./pages/Stok"
 import Kasir from "./pages/Kasir"
+import Statistik from "./pages/Statistik"
+import Profile from "./pages/Profile"
+import Login from "./pages/Login"
 
-function kasir() {
-  return (
-    <h2 className="text-3xl font-bold">Halaman kasir ini wok</h2>
-  )
-}
+
 
 function App() {
   return (
@@ -16,6 +15,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Kasir />} />
         <Route path="/stok" element={<Stok />} />
+        <Route path="/statistik" element={<Statistik />} />
+        <Route path="/profile" element={<Profile />} />
+        <Route path="/Login" element={<Login />} />
       </Routes>
     </Layout>
   )
